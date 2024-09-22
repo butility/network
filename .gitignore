@@ -1,0 +1,17 @@
+node_modules/
+.npmignore
+.env
+.vscode/
+.dist/
+
+# builds
+network.js
+/network.d.ts
+sw.js
+sw.d.ts
+url.js
+url.d.ts
+ip.js
+ip.d.ts
+request.js
+request.d.ts
