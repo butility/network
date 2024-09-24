@@ -8,7 +8,8 @@ export function isValidIPv4(ip: string): boolean {
 }
 
 export function isValidIPv6(ip: string): boolean {
-    const ipv6Regex = /^(::(?:[fF]{4}:))(\d+\.\d+\.\d+\.\d+)$/;
+    const ipv6Regex =
+        /^(?:^([0-9a-fA-F]{1,4}:){7}([0-9a-fA-F]{1,4}|:)$)|(^([0-9a-fA-F]{1,4}:){1,7}:$)|(^([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}$)|(^([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}$)|(^([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}$)|(^([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}$)|(^([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}$)|(^([0-9a-fA-F]{1,4}:){1}(:[0-9a-fA-F]{1,4}){1,6}$)|(^:((:[0-9a-fA-F]{1,4}){1,7}|:)$)|(^([0-9a-fA-F]{1,4}:){1,7}:)$/;
     return ipv6Regex.test(ip);
 }
 
