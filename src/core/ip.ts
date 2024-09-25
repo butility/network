@@ -202,7 +202,7 @@ export function getLocationByIP(ip: string, callback: Function) {
                 callback(null);
             },
             success: (response) => {
-                const data = response.json();
+                const data = response;
                 const location = {
                     latitude: parseFloat(data.loc.split(',')[0]),
                     longitude: parseFloat(data.loc.split(',')[1]),
@@ -227,7 +227,7 @@ export function getUserIPAddress(callback: Function): void {
                 callback(null);
             },
             success: (response) => {
-                const data = response.json();
+                const data = response;
                 const ip = data.ip;
 
                 if (isValidIPv4(ip)) {
