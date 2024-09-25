@@ -1,6 +1,6 @@
 {
   "name": "@butility/network",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "network.js",
   "type": "module",
   "scripts": {
