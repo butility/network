@@ -25,19 +25,19 @@ npm install @butility/network
 ```html
 <!-- To use all the functions and methods -->
 <script src="https://unpkg.com/@butility/network@latest/network.js" type="module"></script>
-<script src="https://cdn.jsdelivr.net/npm/@butility/network@latest/network.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@butility/network@latest/network.js" type="module"></script>
 <!-- To use IP utils -->
 <script src="https://unpkg.com/@butility/network@latest/ip.js" type="module"></script>
-<script src="https://cdn.jsdelivr.net/npm/@butility/network@latest/ip.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@butility/network@latest/ip.js" type="module"></script>
 <!-- To use Ajax utils -->
 <script src="https://unpkg.com/@butility/network@latest/request.js" type="module"></script>
-<script src="https://cdn.jsdelivr.net/npm/@butility/network@latest/request.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@butility/network@latest/request.js" type="module"></script>
 <!-- To use Service Worker -->
 <script src="https://unpkg.com/@butility/network@latest/sw.js" type="module"></script>
-<script src="https://cdn.jsdelivr.net/npm/@butility/network@latest/sw.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@butility/network@latest/sw.js" type="module"></script>
 <!-- To use URL utils -->
 <script src="https://unpkg.com/@butility/network@latest/url.js" type="module"></script>
-<script src="https://cdn.jsdelivr.net/npm/@butility/network@latest/url.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@butility/network@latest/url.js" type="module"></script>
 ```
 ## Example
 
@@ -114,4 +114,4 @@ You can find [changelog here](https://github.com/butility/network/tree/main/docs
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE.md).
